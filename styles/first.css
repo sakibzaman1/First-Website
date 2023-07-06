@@ -1,5 +1,30 @@
-div{
-    background-color: tomato;
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    background-color: rgb(60, 58, 58);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-left: 10px ;
+    color: white;
     padding: 10px;
-    margin-top: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.item:hover{
+    color: blue;
+}
+.logo-photo{
+    width: 120px;
+    padding: 20px;
+    margin-right: 10px;
 }
