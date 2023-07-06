@@ -84,14 +84,15 @@
 
 .box{
     border-radius: 15px;
-    width: 230px;
-    height: 280px;
-    box-shadow: 4px 4px 15px gray;
+    width: 180px;
+    height: 370px;
+    box-shadow: 15px 10px 10px gray;
     background-color: black;
     text-align: center;
     padding: 15px;
     color: white;
     margin-bottom: 40px;
+    background: transparent;
 
 }
 .service-section{
