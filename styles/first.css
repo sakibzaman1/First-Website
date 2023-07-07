@@ -21,7 +21,7 @@
     transition: 0.5s;
 }
 .item:hover{
-    color: blue;
+    color: red;
 }
 .logo-photo{
     width: 120px;
@@ -123,4 +123,46 @@
 }
 .box-description{
     padding: 10px;
+}
+
+.end-container{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Images/background.png"),linear-gradient(120deg,rgb(41, 39, 39), rgb(18, 16, 16));
+}
+.end-titles{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 7px;
+    text-align: left;
+}
+.end-container p{
+    text-align: left;
+    padding: 7px;
+}
+.end-con-parts{
+    /* border: 2px solid white; */
+    padding: 20px;
+    margin: 20px;
+}
+
+.ftr{
+    background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?w=1380&t=st=1688735624~exp=1688736224~hmac=eafa5f2e18a999a70a0ebf5115b88b3d0b35cbd68c4b8bbfdb9307aa8d682c10");
+    height: 20vh;
+    display: block;
+    color: white;
+}
+.line{
+    width: 1000px;
+    margin: auto;
+}
+.copyright{
+    text-align: center;
+    margin-top: 30px;
 }
