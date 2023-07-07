@@ -37,7 +37,7 @@
 }
 .banner-container{
     color: white;
-    background-image: url('/images/background.png'),linear-gradient(45deg,black, black);
+    background-image: url('/Images/background.png'),linear-gradient(45deg,black, black);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -103,7 +103,7 @@
 
 }
 .service-section{
-    background-image: url('/images/background.png'),linear-gradient(45deg,black, black);
+    background-image: url('/Images/background.png'),linear-gradient(45deg,black, black);
 }
 .service-container{
     
