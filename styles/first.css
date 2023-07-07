@@ -3,24 +3,31 @@
     padding: 0;
 }
 .menu-container{
-    background-color: rgb(60, 58, 58);
-    padding: 20px;
+    background-color: rgb(9, 9, 9);
+    padding: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .menus{
     display: flex;
+    list-style: none;
 }
 .item{
+    
     margin-left: 10px ;
     color: white;
     padding: 10px;
     font-size: 18px;
     text-decoration: none;
-    transition: 0.5s;
+    
 }
-.item:hover{
+.item a{
+    text-decoration: none;
+    transition: 0.5s;
+    color: inherit;
+}
+.item a:hover{
     color: red;
 }
 .logo-photo{
@@ -30,7 +37,7 @@
 }
 .banner-container{
     color: white;
-    background-image: url("Images/background.png"),linear-gradient(45deg,rgb(18, 17, 17),rgb(40, 37, 37));
+    background-image: url('/images/background.png'),linear-gradient(45deg,black, black);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,7 +103,7 @@
 
 }
 .service-section{
-    background-image: url("Images/background.png"),linear-gradient(120deg,rgb(41, 39, 39), rgb(18, 16, 16));
+    background-image: url('/images/background.png'),linear-gradient(45deg,black, black);
 }
 .service-container{
     
@@ -133,7 +140,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("Images/background.png"),linear-gradient(120deg,rgb(41, 39, 39), rgb(18, 16, 16));
+    border-top: 1px solid gray;
+    background-image: url('/images/background.png'),linear-gradient(45deg,black, black);
 }
 .end-titles{
     font-weight: bold;
@@ -153,7 +161,7 @@
 }
 
 .ftr{
-    background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?w=1380&t=st=1688735624~exp=1688736224~hmac=eafa5f2e18a999a70a0ebf5115b88b3d0b35cbd68c4b8bbfdb9307aa8d682c10");
+    background-image: url('/images/background.png'),linear-gradient(45deg,rgb(0, 0, 0), rgb(0, 0, 0));
     height: 20vh;
     display: block;
     color: white;
